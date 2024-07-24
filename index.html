@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>html</title>
+    </head>
+    <body>
+    <h1>form</h1>
+    
+    <form action="/submit">
+        
+        <label for="name"> FIRST NAME :</label>
+        <input type="text" name="FIRST NAME" placeholder="ENTER FIRST NAME" id="name">
+        <br><br>
+        <label for="name">LAST NAME :</label>
+        <input type="text" name="LAST NAME"placeholder="ENTER LAST NAME" id="NAME">
+        <br><br><br>
+        <label for="date of birth">DATE OF BIRTH :</label>
+        
+        <input type="date" name="date of birth"placeholder="dd-mm-yyyy" id="DATE OF BIRTH">
+        <br><br><br>
+        <label for="male">GENDER :  male</label>
+        <input type="radio" name="GENDER" id="male">
+        <label for="female">female</label>
+        <input type="radio" name="GENDER" id="female">
+        <br><br><br>
+        <label for="country">country :</label>
+        <select name="country" id="country">
+        <option value="india">india</option>
+        <option value="usa">usa</option>
+         <option value="portugal">portugal</option>
+        </select>
+        <br><br><br>
+        <label for="email">email</label>
+        <input type="email" name="email" placeholder="ENTER YOUR EMAIL" id="email">
+        <br><br><br>
+        <label for="phone">PHONE</label>
+        <input type="phone" name="phone" placeholder="ENTER PHONE NO" id="phone">
+        <br><br><br>
+        <label for="password">password :</label>
+        <input type="password" name="password" placeholder="password" id="password">
+        <br><br><br>
+        <label for="password"> confirm password :</label>
+        <input type="password" name="password" id="confirm_password" required>
+        <br><br><br>
+        <label for="agree">I AGREE TO THE TERMS OF USE</label>
+        <input type="checkbox" name="agree" id="agree" value="agreed">
+        <br><br><br>
+        <input type="submit">
+        <button type="button" onclick="CancelAction()">cancel</button>
+        
+        </form>
+        <script>
+           function CancelAction(){
+
+                window.location.href= 'index.html';
+            
+           }
+            
+                
+        
+        </script>
+
+
+
+
+    </body>
+   </html>
